@@ -1,5 +1,8 @@
 /*! HTML5 Boilerplate v5.0 | MIT License | http://h5bp.com/ */
-body{font-family: 'Shadows Into Light', cursive;}
+body{font-family: 'Noto Serif', serif;}
+.subtitle {
+    font-family: "Noto Serif", serif;
+}
 html {
     color: #222;
     font-size: 1em;
