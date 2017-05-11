@@ -10,9 +10,20 @@ html {
 }
 
 img {
+    height: 720px;    
+}
 
-    height: 720px; 
-    
+.chefheader h1{    
+font-size: 26px     
+}
+
+.chefquote p{
+font-size:35px    
+}
+
+.chefquotename p{
+font-size:14px;
+color: dimgray;
 }
 
 ::-moz-selection {
