@@ -40,16 +40,20 @@ text-decoration:underline;
 }
 
 .upsanddownscontent p {
+
+text-align: justify;
 font-size:14px;
 letter-spacing: 2px;
 line-height: 28px;    
 }
 
-.recipetitle h3{
 
-    text-align: center;
-    font-size: 24px;
+.feature1 p{
     
+text-align: justify;
+font-size: 14px;
+letter-spacing: 2px;
+line-height: 28px;   
 }
 
 ::-moz-selection {
