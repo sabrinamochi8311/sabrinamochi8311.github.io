@@ -9,34 +9,24 @@ html {
     line-height: 1.4;
 }
 
-#chefs img {
-    height: 720px;    
-}
-
 .chefheader h1{    
 font-size: 26px; 
 color:black;
 }
 
-.chefquote p{
-font-size:35px;
-text-align: center;
-line-height: 55px;
-letter-spacing: 1.5px
-    
+
+
+.upsanddowns h2{
+
+font-weight:bold; 
+font-size:35px; 
+line-height: 50px; 
+letter-spacing: 2px; 
+text-decoration:underline;"    
+
 }
 
-.chefquotename p{
-font-size:14px;
-text-align:center;
-}
-
-.chefcontentname h2{
-text-align: center;
-font-size:48px;
-}
-
-.chefcontent {
+.upsanddownscontent p {
 font-size:14px;
 letter-spacing: 2px;
 line-height: 28px;    
