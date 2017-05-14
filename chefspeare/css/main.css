@@ -56,6 +56,22 @@ letter-spacing: 2px;
 line-height: 28px;   
 }
 
+.feature1 header{
+    
+    text-align: center
+}
+
+
+.feature2 header{
+    
+    text-align: center
+}
+
+
+.recipe header{
+    
+    text-align: center
+}
 ::-moz-selection {
     background: #b3d4fc;
     text-shadow: none;
