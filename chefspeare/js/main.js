@@ -155,3 +155,26 @@ function scrollToPrev() {
 		$('html,body').stop().animate({ scrollTop: 0}, 500);
 	}
 }
+
+
+var myName = "Chefspeare";
+
+var red = [207, 76, 21];
+var orange = [198, 100, 14];
+var green = [219, 22, 46];
+var blue = [173, 69, 20];
+var purple = [200, 31, 52];
+var letterColors = [red, orange, green, blue, purple];
+
+drawName(myName, letterColors);
+
+if(10 < 3)
+{
+    bubbleShape = 'square';
+}
+else
+{
+    bubbleShape = 'circle';
+}
+
+bounceBubbles();
