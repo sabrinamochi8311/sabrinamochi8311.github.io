@@ -1,0 +1,176 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/vendor/modernizr-2.8.3.min.js"></script>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+    <header>
+        <h1>
+    
+2017 / 06 / 12 Troie's Class 
+    
+</h1> </header>
+    <div class="container-fluid">
+        <article>
+            <header>
+                <h2> 
+    圖片    
+    </h2> </header>
+            <ul>
+                <p class="important"> 圖片越小越好，所以不需要的部分就裁掉。
+                    <br/> </p>
+                <li>jpg：適合鮮豔顏色的圖片，可以被壓縮（但不要低於 55%）， 放大後會糊掉</li>
+                <li> gif: 適合顏色不那麼鮮豔的圖片，顯示在網頁會有鋸齒狀、可作動畫效果、
+                    <br/>去背後的圖片要存成 gif 在網站上才會是透明的
+                    <br/>
+                </li>
+                <li>png：擁有 jpg+gif 的特性，另外一個缺點是不能被壓到 jpg 那麼小</li>
+                <aside>
+                    <br/> </aside>
+                <aside>
+                    <p> Shooca: what about svg?
+                        <br/> Troie: good. but too difficult for others.
+                        <br/> </p>
+                </aside>
+                <li> svg: 設計師的 ai 檔轉成 svg 後＝把圖案讀成程式碼，不會模糊，但檔案會大，且有些瀏覽器讀不出來</li>
+            </ul>
+        </article>
+        <aside>
+            <br/> </aside>
+        <header>
+            <h2> 
+    表格    
+    </h2> </header>
+        <table class="table table-striped">
+            <tr>
+                <td>1</td>
+                <td>2</td>
+                <td>3</td>
+            </tr>
+            
+             <tr>
+                <td>4</td>
+                <td>5</td>
+                <td>6</td>
+            </tr>
+            
+            <tr>
+                <td>7</td>
+                <td>8</td>
+                <td>9</td>
+            </tr>
+            
+        </table>
+        <aside>
+            <br/> </aside>
+        <header>
+            <h2> 
+    表單    
+    </h2> </header>
+        <ul>
+            <li>
+                <p> 需要他人填寫資料時，input 後面定義的文字（email, number... ）可以讓使用者知道我們到底想要什麼格式的答案 </p>
+            </li>
+            <form>
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+                <br/> 
+                <label for="exampleInbutPassword">Password</label>
+                <input type="password">
+                <label for="exampleInbutPhonenumber">Phone number</label>
+                <input type="number" placeholder="ex.0953xxxxxx">
+                <aside>
+                    <br/>
+                    <br/> </aside>
+                <li>
+                    <p> 用 label 包 input，點字就可以 check box。多選用 checkbox，單選用 radio。 </p>
+                </li>
+                <label>
+                    <input type="checkbox"> remembered </label>
+                
+                 <aside>
+                
+                    <br/> </aside>
+                <li>
+                    <p>Q: what if there're many labels? <br/>
+                    A: you have to name the labels.
+                    </p>
+            
+                </li>
+                
+                   <label for="h1">
+                    <input type="checkbox" id="h1"> remembered </label>
+                   <label>
+                    <input type="checkbox"> remembered </label>
+                   <label>
+                    <input type="checkbox"> remembered </label>
+                
+                
+                <aside>
+                    <br/>
+                </aside>
+                
+                <li>
+                    <p> Css 可以呼叫 class，class 的內容可以重複使用。 Js 只能呼叫 id，id 內容不能重複使用 </p>
+                </li>
+                
+                
+                     
+                <aside>
+                    <br/>
+                </aside>
+                
+                <li>
+                    <p> 使用下拉式表單，要思考一下，是不是用 radio/checkbox 做就可以了？要想使用者如何用最少的步驟就能完成你想要他們做的事。<br/>
+                    另外，value 跟真正呈現在網頁上的詞可以不同，真正呈現在網頁上的可能是年齡區段，value 可以是數字 1 代替就好，這樣網頁在跑的時候會比較快。
+                    </p>
+                </li>
+<select class="form-control">
+  <option value="group1">1</option>
+  <option>2</option>
+  <option>3</option>
+  <option>4</option>
+  <option>5</option>
+</select>
+                
+            </form>
+        </ul>
+    </div>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script>
+        window.jQuery || document.write('<script src="js/vendor/jquery-1.11.2.min.js"><\/script>')
+    </script>
+    <script src="js/main.js"></script>
+    <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+    <script>
+        (function (b, o, i, l, e, r) {
+            b.GoogleAnalyticsObject = l;
+            b[l] || (b[l] = function () {
+                (b[l].q = b[l].q || []).push(arguments)
+            });
+            b[l].l = +new Date;
+            e = o.createElement(i);
+            r = o.getElementsByTagName(i)[0];
+            e.src = '//www.google-analytics.com/analytics.js';
+            r.parentNode.insertBefore(e, r)
+        }(window, document, 'script', 'ga'));
+        ga('create', 'UA-XXXXX-X', 'auto');
+        ga('send', 'pageview');
+    </script>
+</body>
+
+</html>
