@@ -1,2 +1,71 @@
-# Empty CSS file for your own CSS
+/*以下應該被移到 style.css*/
+
+.block {
+/*    border: 1px solid black;*/
+    height: 20px; 
+}
+
+.sleep {
+    background: lightblue;
+}
+
+.sports {
+    background: #ffbb99;
+}
+.food {
+    background: #ffeb99;
+}
+
+.cafe {
+    background: #dfbf9f;
+}
+
+.learning {
+    background: #ff6666;
+}
+
+.leisure {
+    background: #adadeb;
+}
+
+
+li {
+    border: black solid 1px; 
+    width:20px; 
+    height: 20px; 
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.Sleepp {
+    background: lightblue;
+    width: 216px;
+}
+
+.Sportss {
+    background: #ffbb99;
+    width: 27px;
+}
+.Foodd {
+    background: #ffeb99;
+    width: 108px;
+}
+
+.Cafee {
+    background: #dfbf9f;
+    width: 108px;
+}
+
+.Learningg {
+    background: #ff6666;
+     width: 81px;
+}
+
+.Leisuree {
+    background: #adadeb;
+     width: 108px;
+}
+
+
+
 

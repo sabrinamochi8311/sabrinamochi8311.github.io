@@ -8080,34 +8080,3 @@ button.close {
 
 
 
-
-
-/*以下應該被移到 style.css*/
-
-.block {
-/*    border: 1px solid black;*/
-    height: 20px; 
-}
-
-.sleep {
-    background: lightblue;
-}
-
-.sports {
-    background: #ffbb99;
-}
-.food {
-    background: #ffeb99;
-}
-
-.cafe {
-    background: #dfbf9f;
-}
-
-.Learning {
-    background: #ff6666;
-}
-
-.Leisure {
-    background: #adadeb;
-}
